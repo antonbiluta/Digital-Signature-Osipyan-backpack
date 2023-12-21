@@ -1,9 +1,11 @@
+import json
+import os
 import tkinter as tk
 from tkinter import messagebox, filedialog
-from user_controller import UserController
-from signeter import improved_sign_file, improved_verify_signature
+
 from generators import generate_keys_json
-import json, os
+from signeter import improved_sign_file, improved_verify_signature
+from user_controller import UserController
 
 
 class DigitalSignatureApp:

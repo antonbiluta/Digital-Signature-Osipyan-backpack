@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
-from generators import generate_keys
-from signeter import improved_sign_file, improved_verify_signature
+from app.generators import generate_keys
+from app.signeter import improved_sign_file, improved_verify_signature
 import json
 import os
 

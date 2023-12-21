@@ -1,4 +1,4 @@
-from utils import text_to_binary
+from app.utils import text_to_binary
 
 def improved_sign_file(file_data, private_key, modulus, multiplier):
     """ Улучшенная функция подписи файла """

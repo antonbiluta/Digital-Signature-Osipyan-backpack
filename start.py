@@ -1,6 +1,5 @@
-
 import tkinter as tk
-from digital_signature_app import DigitalSignatureApp
+from app.digital_signature_app import DigitalSignatureApp
 
 
 # Запуск приложения

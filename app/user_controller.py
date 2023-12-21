@@ -1,7 +1,7 @@
 import sqlite3
 from hashlib import sha256
 import json
-from generators import generate_keys_json
+from app.generators import generate_keys_json
 
 
 class UserController:
