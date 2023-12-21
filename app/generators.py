@@ -1,4 +1,6 @@
-import random, json
+import json
+import random
+
 
 def generate_knapsack_key(size):
     """ Генерирует случайный рюкзак """
